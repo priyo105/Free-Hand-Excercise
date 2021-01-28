@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Free hand Workout- Loose Weight in 30 days</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dumble Exercise</string>
+    <string name="title_notifications">Fast Fat Loss</string>
+
+<!--    test-->
+<!--    <string name="interstatial_addId">ca-app-pub-3940256099942544/1033173712</string>-->
+<!--    <string name="banner_add">ca-app-pub-3940256099942544/6300978111</string>-->
+<!--    <string name="rewarded_add">ca-app-pub-3940256099942544/5224354917</string>-->
+
+
+
+<!--    live-->
+    <string name="interstatial_addId">ca-app-pub-6287107563152826/8566005098</string>
+    <string name="banner_add">ca-app-pub-6287107563152826/1845695833</string>
+    <string name="rewarded_add">ca-app-pub-6287107563152826/8755553260</string>
+
+
+    <string name="action_settings">Settings</string>
+    <string name="action_search">Search</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+
+    <string name="nav_item_home">Home</string>
+    <string name="nav_item_friends">Friends</string>
+    <string name="nav_item_notifications">Messages</string>
+
+    <!-- navigation drawer item labels  -->
+    <string-array name="nav_drawer_labels">
+        <item>@string/nav_item_home</item>
+        <item>@string/nav_item_friends</item>
+        <item>@string/nav_item_notifications</item>
+    </string-array>
+
+    <string name="title_messages">Messages</string>
+    <string name="title_friends">Friends</string>
+</resources>

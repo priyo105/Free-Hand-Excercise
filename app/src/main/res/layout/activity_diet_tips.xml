@@ -1,0 +1,716 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.home.DietTips">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/banner_add">
+    </com.google.android.gms.ads.AdView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:text="Weight Loss Tips That Are Actually Evidence-Based">
+
+    </TextView>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"
+
+        android:layout_marginLeft="10dp"
+        android:textSize="17dp"
+        android:text="The weight loss industry is full of myths.\n\n
+People are often advised to do all sorts of crazy things, most of which have no evidence behind them.\n\n
+However, over the years, scientists have found a number of strategies that seem to be effective.\n\n
+Here are  weight loss tips that are actually evidence-based."
+        android:layout_height="wrap_content">
+    </TextView>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="10dp"
+        android:textSize="20dp"
+        android:layout_marginRight="10dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="1. Drink Water, Especially Before Meals"
+        android:layout_height="wrap_content">
+    </TextView>
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_marginTop="20dp"
+        android:layout_margin="20dp"
+        android:background="@drawable/drinkwater">
+    </ImageView>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="17dp"
+        android:layout_marginRight="10dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="It is often claimed that drinking water can help with weight loss — and that’s true.\n\n
+
+Drinking water can boost metabolism by 24–30% over a period of 1–1.5 hours, helping you burn off a few more calories .\n\n
+
+One study showed that drinking a half-liter (17 ounces) of water about half an hour before meals helped dieters eat fewer calories and lose 44% more weight, compared to those who didn’t drink the water .\n"
+        android:layout_height="wrap_content">
+    </TextView>
+
+
+</LinearLayout>
+
+<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="10dp"
+            android:textSize="20dp"
+            android:layout_marginRight="10dp"
+            android:fontFamily="sans-serif-smallcaps"
+            android:text="2. Eat Eggs For Breakfast"
+            android:layout_height="wrap_content">
+        </TextView>
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_margin="20dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/egg">
+        </ImageView>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:textSize="17dp"
+            android:layout_marginRight="10dp"
+            android:fontFamily="sans-serif-smallcaps"
+            android:text="Eating whole eggs can have all sorts of benefits, including helping you lose weight.
+
+Studies show that replacing a grain-based breakfast with eggs can help you eat fewer calories for the next 36 hours as well as lose more weight and body fat (4Trusted Source, 5Trusted Source).
+
+If you don’t eat eggs, that’s fine. Any source of quality protein for breakfast should do the trick.
+
+"
+            android:layout_height="wrap_content">
+        </TextView>
+    </LinearLayout>
+
+<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="10dp"
+            android:textSize="20dp"
+            android:layout_marginRight="10dp"
+            android:fontFamily="sans-serif-smallcaps"
+            android:text="3. Drink Coffee (Preferably Black)"
+            android:layout_height="wrap_content">
+        </TextView>
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_margin="20dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/coffee">
+        </ImageView>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:textSize="17dp"
+            android:layout_marginRight="10dp"
+            android:fontFamily="sans-serif-smallcaps"
+            android:text="Coffee has been unfairly demonized. Quality coffee is loaded with antioxidants and can have numerous health benefits.\n\n
+
+Studies show that the caffeine in coffee can boost metabolism by 3–11% and increase fat burning by up to 10–29% (6Trusted Source, 7Trusted Source, 8Trusted Source).\n\n
+
+Just make sure not to add a bunch of sugar or other high-calorie ingredients to your coffee. That will completely negate any benefits.\n\n
+
+You can shop for coffee at your local grocery store, as well as online.
+
+"
+            android:layout_height="wrap_content">
+        </TextView>
+    </LinearLayout>
+
+<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="10dp"
+            android:textSize="20dp"
+            android:layout_marginRight="10dp"
+            android:fontFamily="sans-serif-smallcaps"
+            android:text="4. Drink Green Tea"
+            android:layout_height="wrap_content">
+        </TextView>
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_margin="20dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/greentea">
+        </ImageView>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:textSize="17dp"
+            android:layout_marginRight="10dp"
+            android:fontFamily="sans-serif-smallcaps"
+            android:text="Like coffee, green tea also has many benefits, one of them being weight loss.\n\n
+
+Though green tea contains small amounts of caffeine, it is loaded with powerful antioxidants called catechins, which are believed to work synergistically with caffeine to enhance fat burning (9, 10Trusted Source).\n\n
+
+Although the evidence is mixed, many studies show that green tea (either as a beverage or a green tea extract supplement) can help you lose weight (11Trusted Source, 12Trusted Source).\n\n
+
+Green tea is available at most pharmacies, health stores, and grocery stores, as well as online.\n\n
+"
+            android:layout_height="wrap_content">
+        </TextView>
+    </LinearLayout>
+
+<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="10dp"
+            android:textSize="20dp"
+            android:layout_marginRight="10dp"
+            android:fontFamily="sans-serif-smallcaps"
+            android:text="5. Try Intermittent Fasting"
+            android:layout_height="wrap_content">
+        </TextView>
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_margin="20dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/fasting">
+        </ImageView>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:textSize="17dp"
+            android:layout_marginRight="10dp"
+            android:fontFamily="sans-serif-smallcaps"
+            android:text="Intermittent fasting is a popular eating pattern in which people cycle between periods of fasting and eating. \n\n
+
+Short-term studies suggest intermittent fasting is as effective for weight loss as continuous calorie restriction. \n\n
+
+Additionally, it may reduce the loss of muscle mass typically associated with low-calorie diets. However, higher-quality studies are needed before any stronger claims can be made.
+"
+            android:layout_height="wrap_content">
+        </TextView>
+    </LinearLayout>
+
+<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="10dp"
+            android:textSize="20dp"
+            android:layout_marginRight="10dp"
+            android:fontFamily="sans-serif-smallcaps"
+            android:text="6. Cut Back on Added Sugar"
+            android:layout_height="wrap_content">
+        </TextView>
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_margin="20dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/addedsugar">
+        </ImageView>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:textSize="17dp"
+            android:layout_marginRight="10dp"
+            android:fontFamily="sans-serif-smallcaps"
+            android:text="Added sugar is one of the worst ingredients in the modern diet. Most people consume way too much.\n\n
+
+Studies show that sugar (and high-fructose corn syrup) consumption is strongly associated with an increased risk of obesity, as well as conditions including type 2 diabetes and heart disease .\n\n
+
+If you want to lose weight, cut back on added sugar. Just make sure to read labels, because even so-called health foods can be loaded with sugar.
+"
+            android:layout_height="wrap_content">
+        </TextView>
+    </LinearLayout>
+
+<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="10dp"
+            android:textSize="20dp"
+            android:layout_marginRight="10dp"
+            android:fontFamily="sans-serif-smallcaps"
+            android:text="7. Eat Less Refined Carbs"
+            android:layout_height="wrap_content">
+        </TextView>
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_margin="20dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/carbs">
+        </ImageView>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:textSize="17dp"
+            android:layout_marginRight="10dp"
+            android:fontFamily="sans-serif-smallcaps"
+            android:text="Refined carbohydrates include sugar and grains that have been stripped of their fibrous, nutritious parts. These include white bread and pasta. \n\n
+
+Studies show that refined carbs can spike blood sugar rapidly, leading to hunger, cravings and increased food intake a few hours later. Eating refined carbs is strongly linked to obesity . \n\n
+
+If you’re going to eat carbs, make sure to eat them with their natural fiber..\n
+"
+            android:layout_height="wrap_content">
+        </TextView>
+    </LinearLayout>
+
+
+<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="10dp"
+            android:textSize="20dp"
+            android:layout_marginRight="10dp"
+            android:fontFamily="sans-serif-smallcaps"
+            android:text="8.Exercise Portion Control or Count Calories"
+            android:layout_height="wrap_content">
+        </TextView>
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_margin="20dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/calorycount">
+        </ImageView>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:textSize="17dp"
+            android:layout_marginRight="10dp"
+            android:fontFamily="sans-serif-smallcaps"
+            android:text="Portion control — simply eating less — or counting calories can be very useful, for obvious reasons .\n\n
+
+Some studies show that keeping a food diary or taking pictures of your meals can help you lose weight . \n\n
+
+Anything that increases your awareness of what you are eating is likely to be beneficial.
+
+
+"
+            android:layout_height="wrap_content">
+        </TextView>
+    </LinearLayout>
+<LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="10dp"
+            android:textSize="20dp"
+            android:layout_marginRight="10dp"
+            android:fontFamily="sans-serif-smallcaps"
+            android:text="9. Do Aerobic Exercise"
+            android:layout_height="wrap_content">
+        </TextView>
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_margin="20dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/treadmill">
+        </ImageView>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:textSize="17dp"
+            android:layout_marginRight="10dp"
+            android:fontFamily="sans-serif-smallcaps"
+            android:text="Doing aerobic exercise (cardio) is an excellent way to burn calories and improve your physical and mental health. \n\n
+
+It appears to be particularly effective for losing belly fat, the unhealthy fat that tends to build up around your organs and cause metabolic disease .
+
+"
+            android:layout_height="wrap_content">
+        </TextView>
+    </LinearLayout>
+<LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="10dp"
+            android:textSize="20dp"
+            android:layout_marginRight="10dp"
+            android:fontFamily="sans-serif-smallcaps"
+            android:text="10. Lift Weights"
+            android:layout_height="wrap_content">
+        </TextView>
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_margin="20dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/lifting">
+        </ImageView>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:textSize="17dp"
+            android:layout_marginRight="10dp"
+            android:fontFamily="sans-serif-smallcaps"
+            android:text="One of the worst side effects of dieting is that it tends to cause muscle loss and metabolic slowdown, often referred to as starvation mode. \n\n
+
+The best way to prevent this is to do some sort of resistance exercise such as lifting weights. Studies show that weight lifting can help keep your metabolism high and prevent you from losing precious muscle mass .
+\n\n
+Of course, it’s important not just to lose fat — you also want to build muscle. Resistance exercise is critical for a toned body.
+
+"
+            android:layout_height="wrap_content">
+        </TextView>
+    </LinearLayout>
+
+<LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="10dp"
+            android:textSize="20dp"
+            android:layout_marginRight="10dp"
+            android:fontFamily="sans-serif-smallcaps"
+            android:text="11. Eat More Fiber"
+            android:layout_height="wrap_content">
+        </TextView>
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_margin="20dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/fibre">
+        </ImageView>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:textSize="17dp"
+            android:layout_marginRight="10dp"
+            android:fontFamily="sans-serif-smallcaps"
+            android:text="Fiber is often recommended for weight loss. \n\n
+
+Although the evidence is mixed, some studies show that fiber (especially viscous fiber) can increase satiety and help you control your weight over the long term (44Trusted Source, 45Trusted Source).
+
+"
+            android:layout_height="wrap_content">
+        </TextView>
+    </LinearLayout>
+
+<LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="10dp"
+            android:textSize="20dp"
+            android:layout_marginRight="10dp"
+            android:fontFamily="sans-serif-smallcaps"
+            android:text="12. Eat More Vegetables and Fruits"
+            android:layout_height="wrap_content">
+        </TextView>
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_margin="20dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/fruits">
+        </ImageView>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:textSize="17dp"
+            android:layout_marginRight="10dp"
+            android:fontFamily="sans-serif-smallcaps"
+            android:text="Vegetables and fruits have several properties that make them effective for weight loss. \n\n
+
+They contain few calories but a lot of fiber. Their high water content gives them low energy density, making them very filling. \n\n
+
+Studies show that people who eat vegetables and fruits tend to weigh less . \n\n
+
+These foods are also very nutritious, so eating them is important for your health.
+"
+            android:layout_height="wrap_content">
+        </TextView>
+    </LinearLayout>
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="10dp"
+            android:textSize="20dp"
+            android:layout_marginRight="10dp"
+            android:fontFamily="sans-serif-smallcaps"
+            android:text="13. Get Good Sleep"
+            android:layout_height="wrap_content">
+        </TextView>
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_margin="20dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/sleep">
+        </ImageView>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:textSize="17dp"
+            android:layout_marginRight="10dp"
+            android:fontFamily="sans-serif-smallcaps"
+            android:text="Sleep is highly underrated but may be just as important as eating healthy and exercising. \n\n
+
+Studies show that poor sleep is one of the strongest risk factors for obesity, as it’s linked to an 89% increased risk of obesity in children and 55% in adults
+"
+            android:layout_height="wrap_content">
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="10dp"
+            android:textSize="20dp"
+            android:layout_marginRight="10dp"
+            android:fontFamily="sans-serif-smallcaps"
+            android:text="14.Eat More Protein"
+            android:layout_height="wrap_content">
+        </TextView>
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_margin="20dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/protien">
+        </ImageView>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:textSize="17dp"
+            android:layout_marginRight="10dp"
+            android:fontFamily="sans-serif-smallcaps"
+            android:text="
+Protein is the single most important nutrient for losing weight. \n\n
+
+Eating a high-protein diet has been shown to boost metabolism by 80–100 calories per day while shaving 441 calories per day off your diet . \n\n
+
+One study also showed that eating 25% of your daily calories as protein reduced obsessive thoughts about food by 60% while cutting desire for late-night snacking in half . \n\n
+
+Simply adding protein to your diet is one of the easiest and most effective ways to lose weight."
+            android:layout_height="wrap_content">
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="10dp"
+            android:textSize="20dp"
+            android:layout_marginRight="10dp"
+            android:fontFamily="sans-serif-smallcaps"
+            android:text="15. Don’t Diet — Eat Healthy Instead"
+            android:layout_height="wrap_content">
+        </TextView>
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_margin="20dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/healthyfood">
+        </ImageView>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:textSize="17dp"
+            android:layout_marginRight="10dp"
+            android:fontFamily="sans-serif-smallcaps"
+            android:text="
+One of the biggest problems with diets is that they rarely work in the long term. \n\n
+
+If anything, people who diet tend to gain more weight over time, and studies show that dieting is a consistent predictor of future weight gain (57Trusted Source).
+\n\n
+Instead of going on a diet, aim to become a healthier, happier and fitter person. Focus on nourishing your body instead of depriving it.
+\n\n
+Weight loss should then follow naturally.."
+            android:layout_height="wrap_content">
+        </TextView>
+    </LinearLayout>
+
+</LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,2 @@
+include ':app'
+rootProject.name = "Free hand workout- Lose Weight in 30 days"

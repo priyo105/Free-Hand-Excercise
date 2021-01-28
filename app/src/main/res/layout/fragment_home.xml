@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.home.HomeFragment">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <!-- A CardView that contains a TextView -->
+    <androidx.cardview.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/freehandexercisecard"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_margin="20dp"
+        android:elevation="100dp"
+        app:cardBackgroundColor="#635858"
+        card_view:cardCornerRadius="10dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/profile_image"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/freehand"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            app:civ_border_width="2dp"
+            app:civ_border_color="#301010"/>
+
+
+        <TextView
+            android:id="@+id/info_text"
+            android:layout_width="match_parent"
+            android:text="Free Hand Exercises"
+            android:textColor="#fff"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:layout_marginTop="35dp"
+            android:layout_marginLeft="30dp"
+            android:fontFamily="sans-serif-smallcaps"
+            android:layout_height="match_parent" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/diettips"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_margin="20dp"
+        android:elevation="100dp"
+        app:cardBackgroundColor="#635858"
+        card_view:cardCornerRadius="10dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/diet"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            app:civ_border_width="2dp"
+            app:civ_border_color="#301010"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:text="Diet Tips"
+            android:textColor="#fff"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:layout_marginTop="35dp"
+            android:layout_marginLeft="30dp"
+            android:fontFamily="sans-serif-smallcaps"
+            android:layout_height="match_parent" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/ketocard"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_margin="20dp"
+        android:elevation="100dp"
+        app:cardBackgroundColor="#635858"
+        card_view:cardCornerRadius="10dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/keto"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            app:civ_border_width="2dp"
+            app:civ_border_color="#301010"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:text="KETO Recipies"
+            android:textColor="#fff"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:layout_marginTop="35dp"
+            android:layout_marginLeft="30dp"
+            android:fontFamily="sans-serif-smallcaps"
+            android:layout_height="match_parent" />
+    </androidx.cardview.widget.CardView>
+
+
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="20dp"
+         android:orientation="horizontal">
+
+          <ImageView
+              android:layout_width="200dp"
+              android:layout_height="200dp"
+              android:background="@drawable/johncena">
+
+          </ImageView>
+
+          <LinearLayout
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_marginTop="20dp"
+              android:orientation="vertical">
+
+              <LinearLayout
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:orientation="horizontal">
+
+                     <ImageView
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:background="@drawable/check">
+                    </ImageView>
+
+                     <TextView
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:layout_marginLeft="10dp"
+                         android:textColor="#301a12"
+                         android:text="Move around some">
+
+                     </TextView>
+
+
+
+                 </LinearLayout>
+              <LinearLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_marginTop="20dp"
+
+                  android:orientation="horizontal">
+
+                  <ImageView
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:background="@drawable/check">
+                  </ImageView>
+
+                  <TextView
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_marginLeft="10dp"
+                      android:textColor="#301a12"
+                      android:text="Make Good Choises">
+
+                  </TextView>
+
+
+
+              </LinearLayout>
+              <LinearLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_marginTop="20dp"
+
+                  android:orientation="horizontal">
+
+                  <ImageView
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:background="@drawable/check">
+                  </ImageView>
+
+                  <TextView
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_marginLeft="10dp"
+                      android:textColor="#301a12"
+                      android:text="just do it every day">
+
+                  </TextView>
+
+
+
+              </LinearLayout>
+
+
+          </LinearLayout>
+
+
+
+     </LinearLayout>
+</LinearLayout>
+</ScrollView>
