@@ -1,23 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.freehandworkout_loseweightin30days">
+    package="com.zerogravityapp.freehandworkout_loseweightin30days">
 
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
     <application
         android:allowBackup="true"
-        android:icon="@drawable/icon"
+        android:icon="@drawable/fitness"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.FreeHandWorkoutLoseWeightIn30Days">
-        <activity android:name=".ui.home.ketoPdfViewActivity"></activity>
-        <activity android:name=".ui.home.DietTips" />
-        <activity android:name=".ui.home.FreeHandExercises" />
-        <activity android:name=".MainActivity" />
+        <activity android:name="com.zerogravityapp.freehandworkout_loseweightin30days.ui.home.ketoPdfViewActivity"></activity>
+        <activity android:name="com.zerogravityapp.freehandworkout_loseweightin30days.ui.home.DietTips" />
+        <activity android:name="com.zerogravityapp.freehandworkout_loseweightin30days.ui.home.FreeHandExercises" />
+        <activity android:name="com.zerogravityapp.freehandworkout_loseweightin30days.MainActivity" />
         <meta-data
             android:name="com.google.android.gms.ads.APPLICATION_ID"
             android:value="ca-app-pub-6287107563152826~1466761190"/>
         <activity
-            android:name=".ui.SplashScreen"
+            android:name="com.zerogravityapp.freehandworkout_loseweightin30days.ui.SplashScreen"
             android:label="FreeHand Exercises ">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -26,5 +27,7 @@
             </intent-filter>
         </activity>
     </application>
-
+    <uses-library
+        android:name="org.apache.http.legacy"
+        android:required="false" />
 </manifest>
